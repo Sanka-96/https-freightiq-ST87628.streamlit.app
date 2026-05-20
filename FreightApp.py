@@ -11,8 +11,8 @@ st.set_page_config(page_title="FreightIQ | Cost Predictor",
 
 st.markdown("""
 <style>
-.main-header{font-size:28px;font-weight:700;color:#1a1a2e;}
-.sub-header{font-size:13px;color:#666;margin-top:-8px;}
+.main-header{font-size:38px;font-weight:700;color:#1a1a2e;}
+.sub-header{font-size:24px;color:#666;margin-top:-8px;}
 .badge-dry{background:#dcfce7;color:#166534;padding:3px 10px;border-radius:999px;font-size:12px;font-weight:600;}
 .badge-rainy{background:#dbeafe;color:#1e40af;padding:3px 10px;border-radius:999px;font-size:12px;font-weight:600;}
 .badge-heavy{background:#fef9c3;color:#854d0e;padding:3px 10px;border-radius:999px;font-size:12px;font-weight:600;}
@@ -307,5 +307,5 @@ with col_res:
         """)
 
 st.markdown("---")
-st.markdown('<p class="footer-note">Thesis: Real-Time Cost Prediction · ST87628 · TTI Riga · 2026</p>',
+st.markdown('<p class="footer-note">Thesis: Real-Time Cost Prediction · ST87628 · TSI Riga · 2026</p>',
             unsafe_allow_html=True)
